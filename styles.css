@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    font-size:62.5%;
+    margin:0;
+    padding:0;
+}
+html{
+    font-family: "Outfit", sans-serif;
+}
+#heading{
+    font-size:2.5rem;
+    color:rgb(255, 255, 255);
+    padding:2.5rem 0rem 1rem 2.5rem;
+}
+#heading:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+p{
+    font-size:1.8rem;
+    color:hsla(215, 52%, 76%, 0.661);
+    padding: 0.5rem 0rem 0.5rem 2.5rem;
+}
+body{
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+}
+
+.main-container{
+    background-color: hsl(216, 50%, 16%);
+    width:33rem;
+    height:55rem;
+    border-radius:2rem;
+
+}
+.column-align-center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+    height:28rem;
+    width:28rem;
+    border-radius: 1rem;
+}
+
+.second-container.row-space-between{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:85%;
+    margin-bottom: 1rem;
+}
+.row-space-between{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+#ETH{
+    position:relative;
+    color:hsl(178, 100%, 50%);
+}
+#ETH:before{
+    content: url(/images/icon-ethereum.svg);
+    position:absolute;
+    left:5px;
+    top:0.7rem;
+    
+}
+#CLK{
+    position:relative;
+}
+#CLK:before{
+    content:url(/images/icon-clock.svg);
+    position:absolute;
+    left:-0.2rem;
+    top:0.7rem;
+}
+hr{
+    width:28rem;
+    border-color:rgba(255, 255, 255, 0.172);
+}
+
+#avatar{
+    border:1px solid white;
+    border-radius:2rem;
+    height: 3rem;
+    display:inline-block;
+}
+#footer{
+    width:85%;
+    position:relative;
+    margin-top:2rem;
+}
+
+#footer__text{
+    display:inline-block;
+    position:absolute;
+    top:0;
+}
+.description{
+    margin-bottom:1rem;
+}
+span{
+    font-size:1.8rem;
+    color:white;
+}
+span:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.wrapper{
+    opacity:0;
+    top:23%;
+    position:absolute;
+    background-image:url(/images/icon-view.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: hsla(178, 100%, 50%, 0.367);
+    z-index:999;
+    min-height:280px;
+    width:280px;
+    border-radius: 1rem;
+}
+.wrapper:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 450px){
+    .wrapper{
+        top: 20%;
+    }
+}
