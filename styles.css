@@ -133,7 +133,7 @@ span:hover{
     background-position: center;
     background-color: hsla(178, 100%, 50%, 0.367);
     z-index:999;
-    min-height:280px;
+    min-height:276px;
     width:280px;
     border-radius: 1rem;
 }
