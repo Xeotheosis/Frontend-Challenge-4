@@ -75,7 +75,7 @@ main{
     color:hsl(178, 100%, 50%);
 }
 #ETH:before{
-    content: url(/images/icon-ethereum.svg);
+    content: url(./images/icon-ethereum.svg);
     position:absolute;
     left:5px;
     top:0.7rem;
@@ -85,7 +85,7 @@ main{
     position:relative;
 }
 #CLK:before{
-    content:url(/images/icon-clock.svg);
+    content:url(./images/icon-clock.svg);
     position:absolute;
     left:-0.2rem;
     top:0.7rem;
