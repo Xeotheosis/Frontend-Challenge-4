@@ -129,14 +129,14 @@ span:hover{
 
 .wrapper{
     opacity:0;
-    top:0%;
+    top:4%;
     position:absolute;
     background-image:url(/images/icon-view.svg);
     background-repeat:no-repeat;
     background-position: center;
     background-color: hsla(178, 100%, 50%, 0.367);
     z-index:999;
-    min-height:280px;
+    min-height:278px;
     width:280px;
     border-radius: 1rem;
     position:fixed;
@@ -144,7 +144,6 @@ span:hover{
 .wrapper:hover{
     opacity: 1;
     position:absolute;
-    top:4%;
 }
 .main-container.column-align-center{
     position:relative;
