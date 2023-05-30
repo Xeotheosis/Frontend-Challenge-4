@@ -43,6 +43,7 @@ main{
     width:33rem;
     height:55rem;
     border-radius:2rem;
+    position:relative;
 
 }
 .column-align-center{
@@ -126,7 +127,7 @@ span:hover{
 
 .wrapper{
     opacity:0;
-    top:22%;
+    top:0%;
     position:absolute;
     background-image:url(./images/icon-view.svg);
     background-repeat:no-repeat;
@@ -139,9 +140,4 @@ span:hover{
 }
 .wrapper:hover{
     opacity: 1;
-}
-@media screen and (max-width: 450px){
-    .wrapper{
-        top: 20%;
-    }
 }
