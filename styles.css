@@ -144,6 +144,7 @@ span:hover{
 .wrapper:hover{
     opacity: 1;
     position:absolute;
+      top:4%;
 }
 .main-container.column-align-center{
     position:relative;
