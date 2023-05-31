@@ -139,7 +139,6 @@ span:hover{
     min-height:278px;
     width:280px;
     border-radius: 1rem;
-    position:fixed;
 }
 .wrapper:hover{
     opacity: 1;
